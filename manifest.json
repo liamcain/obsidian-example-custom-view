@@ -1,0 +1,10 @@
+{
+  "id": "example-view",
+  "name": "Example View",
+  "description": "Example of how to properly load/unload custom views",
+  "version": "1.0.0",
+  "author": "Liam Cain",
+  "authorUrl": "https://github.com/liamcain/",
+  "isDesktopOnly": false,
+  "minAppVersion": "1.0.0"
+}
