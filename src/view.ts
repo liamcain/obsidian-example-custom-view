@@ -6,7 +6,6 @@ export const EXAMPLE_VIEW_TYPE = 'example-view';
 export default class ExampleView extends ItemView {
   constructor(
     readonly leaf: WorkspaceLeaf,
-    readonly app: App,
     readonly plugin: CustomViewPlugin
   ) {
     super(leaf);

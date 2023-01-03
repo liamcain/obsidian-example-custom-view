@@ -18,7 +18,7 @@ export default class CustomViewPlugin extends Plugin {
   async onload(): Promise<void> {
     this.registerView(
       EXAMPLE_VIEW_TYPE,
-      (leaf: WorkspaceLeaf) => new ExampleView(leaf, this.app, this)
+      (leaf: WorkspaceLeaf) => new ExampleView(leaf, this)
     );
 
     this.addCommand({
